@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sunshine Resort</title>
+        <link rel="shortcut icon" type="image/jpg" href="./img/logo1.jpg">
+        <meta name="keywords" content="Beach, resort, maldives, cheap resort">
+        <meta name="description" content="Welcome to the most extraordinary beach resort in Maldives">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/showcase.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/b8aa8deb61.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo">
+                    <a href="index.html">Sunshine Resort</a> </h1>
+                    <ul>
+                        <li><a class="current" href="index.html">HOME</a></li>
+                        <li><a  href="#features">AMENITIES</a></li>
+                        <li><a  href="contact.html">CONTACT</a></li>
+                    </ul></div>
+            </nav>
+            <div id="showcase">
+                <div class="container">
+                    <div class="showcase-content">
+                            <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+                            <p class="lead">We’re here to surprise and delight our guests with creative <br> details that make the ordinary truly extraordinary.</p>
+                                <a class="btn" href="#check-info">Book Now</a>
+                    </div>             
+                </div>
+            </div>
+
+        </header>
+
+        <Section id="home-info" class="bg-dark">
+            <div class="info-img"></div>
+            <div class="info-content">
+                <h2><span class="text-primary">Reconnect </span>with mind, body and soul.</h2>
+                <p>This is the ultimate collection for those who wish to fully rest, relax and take the day as it comes. The package has been carefully crafted to give you space and time to laze all day, in you villa or at the beach.
+<br>                    If that’s not relaxing enough, we have also included a unique sleep-under-the-stars experience and a sunset dinner on the beach!</p>
+            </div>
+        </Section>
+              <section id="features">
+             <h2> <span class="box-text"> AMENITIES</span></h2>
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>ACCOMMODATION</h3>
+                <p>Our rooms offer comfortable accommodation with free Wi-Fi, central heating etc.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-concierge-bell fa-3x"></i>
+                <h3>DINING</h3>
+                <p>Dine in style and at its finest in the Resort Restaurant that serves a wide range of tastes.</p></div>
+            <div class="box">
+                <i class="fas fa-dumbbell fa-3x"></i>
+                <h3>Fitness Center</h3>
+                <p>Cardiovascular Equipment, Free weights, Additional equipment: Cardio and Weight Training Machines, Yoga Equipment</p>
+          </div>
+        </div>
+        </section>
+        <Section id="check-info" class="bg-dark">
+            <div class="check-img"></div>
+            <div class="check-content">
+                <h2> <span class="book-text"> BOOK A ROOM</span></h2>
+                <form action="form.js">
+                    <!- Name Details-  -->
+                  <div>
+                         <label for="name"></label> 
+                         <input type="text" id="name" name="name" placeholder="Name">
+                     </div>
+                     <div>
+                         <label for="no"></label> 
+                         <input type="tel" id="no" name="no" placeholder="Phone">
+                     </div>
+
+                     <!-- Date -->
+                     <div>
+                        <label for="date"></label>
+                        <input placeholder="Arival Date" class="textbox-n" type="text" onfocusin="(this.type='date')" onfocusout="(this.type='text')"  id="date">
+                        <!-- <input type="date" name="date" id="date" data-placeholder="Arival Date"> -->
+                    </div>
+                    <div>
+                        <label for="date"></label>
+                        <input placeholder="Departure Date" class="textbox-n" type="text" onfocusin="(this.type='date')" onfocusout="(this.type='text')"  id="date">
+                        <!-- <input type="date" name="date" id="date" data-placeholder="Arival Date"> -->
+                    </div>
+                     <!-- Select -->
+                     <div>
+                         <label for="sex"></label>
+                         <select name="sex" id="sex" >
+                             <option value="adults">Adults</option>
+                             <option value="adults">2 Adults</option>
+                             <option value="adults">3 Adults</option>
+                         </select>
+                         <select name="sex" id="sex" >
+                            <option value="Children">Children</option>
+                            <option value="Children">2 Children</option>
+                            <option value="Children">3 Children</option>
+                        </select>
+                         </div>
+                          <!-- Submit button -->
+                          <button type="submit" class="btn">Check Availability</button>
+                          <!-- <button type="reset">Reset</button> -->
+                  </div>
+                 </form>
+        </section>
+
+            <footer id="main-footer">
+                <p>Sunshine Beach Resort &copy; 2020, All Rights Reserved</p>
+
+            </footer>    
+        
+    </body>
+</html>

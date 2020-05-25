@@ -1,0 +1,74 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main style */
+html,body {
+    font-family: 'Roboto' , Segoe UI;
+    font-size: 17px;
+    line-height: 1.7em;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+.container {
+
+    height: auto;
+    margin: auto;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+
+/* NavBar */
+#navbar {
+
+    background: #082b5e;
+    color: #ffffff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #ffffff;
+}
+
+#navbar h1 {
+    /* Resort logo */
+    float: left; 
+    padding-top: 20px;
+    padding-left: 30px;
+   
+}
+/* home about contact */
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    /* background-color: #278db6;   */
+    color: #f7c08a;
+}
